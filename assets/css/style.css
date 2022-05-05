@@ -1898,7 +1898,7 @@ to {
 }.section-tittle span {
     margin-bottom: 20px;
     display: block;
-    color: #70D76A;
+    color: #004a7c;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -2475,7 +2475,7 @@ to {
     transition: .4s;
 }
 .visit-tailor-area {
-    background: #EEFFFA;
+    background: #e8f1f5;
     display: flex;
     align-items: center;
 }
@@ -2521,7 +2521,7 @@ to {
 }.visit-tailor-area .tailor-details span {
     margin-bottom: 20px;
     display: block;
-    color: #70D76A;
+    color: #004a7c;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -3015,7 +3015,7 @@ to {
 .footer-area .footer-pera p {
     color: #fff;
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     line-height: 1.8;
 }
 .footer-area .footer-pera.footer-pera2 p {
@@ -3046,7 +3046,7 @@ to {
     font-size: 15px;
 }
 .footer-bottom-area .footer-border {
-    padding: 33px 0px 20px;
+    padding: 13px 0px 0px;
 }
 .footer-bottom-area .footer-copy-right p {
     color: #fff;
@@ -3127,6 +3127,8 @@ to {
     color: #fff;
     background: #3B4855;
 }
+
+
 .pagination-area .page-link {
     border: 0;
     font-size: 15px;
