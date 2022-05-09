@@ -61,7 +61,8 @@
                                             <ul id="navigation">
                                                 <li><a href="index.html">Inicio</a></li>
                                                 <li><a href="about.html">Acerca de mí</a></li>
-                                                <li><a href="https://inmedvet.blogspot.com/" target="_blank">Mi Blog</a></li>
+                                                <li><a href="https://inmedvet.blogspot.com/" target="_blank">Mi Blog</a>
+                                                </li>
                                                 <li><a href="contact.html">Contacto</a></li>
                                             </ul>
                                         </nav>
@@ -87,11 +88,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-70">
-                                <h2>Contact</h2>
+                                <h2>Contacta conmigo</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="#">About</a></li>
+                                        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Acerca de mí</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -104,12 +105,47 @@
         <!--?  Contact Area start  -->
         <section class="contact-section">
             <div class="container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53466.31684538255!2d-64.37240411523977!3d-33.118420798119395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbdd02247%3A0xc58d0a705d7cc0e3!2sR%C3%ADo%20Cuarto%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1651874239670!5m2!1sen!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
- 
+                <h2 class="text-center contact-title pb-5">Ubicación en el Google Maps.</h2>
+                <div class="wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53466.31684538255!2d-64.37240411523977!3d-33.118420798119395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbdd02247%3A0xc58d0a705d7cc0e3!2sR%C3%ADo%20Cuarto%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1651874239670!5m2!1sen!2sar"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                <div>
+                    <form action="" class="formulario formJoa">
+                        <h3 class="formulario__titulo contact-title text-center">Contactar para una emergencia</h3>
+                        <h4 class="formulario__subtitulo text-center">Los Mensajes se enviaran directamente a WhatsApp
+                        </h4>
+                        <img src="./assets/img/whatsapp.png" alt="Whatsapp Logo" />
+                        <p class="formulario__parrafo text-center">Utilicelo solo en caso de una emergencia.</p>
+                        <ul>
+                            <li>
+                                <label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+                                <input id="cliente" type="text" class="formulario__input"
+                                    placeholder="Escribe tu Nombre y tu Apellido" />
+                            </li>
+                            <li>
+                                <label for="celu" class="formulario__label">¿Cuál es tu número de telefono
+                                    celular?</label>
+                                <input id="celu" type="number" class="formulario__input" placeholder="3585555555" />
+                            </li>
+                            <li>
+                                <label for="msj">Mensaje</label>
+                                <textarea class="" id="msj" name="mensaje del usuario"></textarea>
+                            </li>
+                        </ul>
+                        <div id="respuesta"></div>
+                        <button id="submit" class="formulario__submit button button-contactForm boxed-btn">Enviar a
+                            WhatsApp</button>
+                    </form>
+                    <script src="js/form.js"></script>
+                </div>
+            </div>
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title">Contactar</h2>
+                        <h2 class="contact-title text-center">Contactar por una consulta.</h2>
                     </div>
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" action="contact_process.php" method="post"
@@ -176,6 +212,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
@@ -287,6 +324,7 @@
     <script src="./assets/js/hover-direction-snake.min.js"></script>
 
     <!-- contact js -->
+    <script src="./assets/js/form.js"></script>
     <script src="./assets/js/contact.js"></script>
     <script src="./assets/js/jquery.form.js"></script>
     <script src="./assets/js/jquery.validate.min.js"></script>
