@@ -105,7 +105,7 @@
         <!--?  Contact Area start  -->
         <section class="contact-section">
             <div class="container">
-                <h2 class="text-center contact-title pb-5">Ubicación en el Google Maps.</h2>
+                <h2 class="text-center contact-title pb-5">Ubicación en Google Maps.</h2>
                 <div class="wrapper">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53466.31684538255!2d-64.37240411523977!3d-33.118420798119395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbdd02247%3A0xc58d0a705d7cc0e3!2sR%C3%ADo%20Cuarto%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1651874239670!5m2!1sen!2sar"
@@ -114,10 +114,13 @@
                 </div>
                 <div>
                     <form action="" class="formulario formJoa">
-                        <h3 class="formulario__titulo contact-title text-center">Contactar para una emergencia</h3>
+                        <div class="formDiv">
+                            <img src="./assets/img/whatsapp.png" alt="Whatsapp Logo" />
+                            <h3 id="h3form" class="formulario__titulo contact-title text-center">Contactar por una
+                                emergencia</h3>
+                        </div>
                         <h4 class="formulario__subtitulo text-center">Los Mensajes se enviaran directamente a WhatsApp
                         </h4>
-                        <img src="./assets/img/whatsapp.png" alt="Whatsapp Logo" />
                         <p class="formulario__parrafo text-center">Utilicelo solo en caso de una emergencia.</p>
                         <ul>
                             <li>
@@ -137,7 +140,7 @@
                         </ul>
                         <div id="respuesta"></div>
                         <button id="submit" class="formulario__submit button button-contactForm boxed-btn">Enviar a
-                            WhatsApp</button>
+                            WhatsApp.</button>
                     </form>
                     <script src="js/form.js"></script>
                 </div>
@@ -145,11 +148,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title text-center">Contactar por una consulta.</h2>
+
                     </div>
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" action="contact_process.php" method="post"
                             id="contactForm" novalidate="novalidate">
+                            <div class="formDiv">
+                                <img src="./assets/img/email.png" alt="Email Logo" />
+                                <h3 id="h3FormTwo" class="contact-title text-center">Contactar por una consulta.</h3>
+                            </div>
+                            <h4 class="formulario__subtitulo text-center pb-4">Recibiras una respuesta en tu mail.
+                            </h4>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -247,14 +256,20 @@
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
                                     <p><strong>Contacto</strong></p>
-                                    <ul>
-                                        <li><a
-                                                href="mailto:sroque.vet@gmail.com?Subject=Hola%20Marcelo%20Te%20Hablo%20Desde%20Tu%20Sitio%20Web">sroque.vet@gmail.com</a>
-                                        </li>
-                                        <li><a href="#">General Deheza</a></li>
-                                        <li><a href="#">Cordoba, Argentina</a></li>
-                                        <li class="number"><a href="tel:358 4407569">(358) 4407569</a></li>
-                                    </ul>
+                                    <div>
+                                        <div class="footerDiv">
+                                            <img class="footerImg" src="./assets/img/email.png" alt="logo-email">
+                                            <a href="#">sroque.vet@gmail.com</a>
+                                        </div>
+                                        <div class="footerDiv">
+                                            <img class="footerImg" src="./assets/img/location.png" alt="Imagen de una localicazión">
+                                            <a href="#">General Deheza, Cordoba.</a>
+                                        </div>
+                                        <div class="footerDiv">
+                                            <img class="footerImg" src="./assets/img/whatsapp.png" alt="Logo de Whatsapp">
+                                            <a href="#"><a href="tel:358 4407569">(358) 4407569</a></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
