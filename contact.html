@@ -105,6 +105,59 @@
         <section class="contact-section">
             <div class="container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53466.31684538255!2d-64.37240411523977!3d-33.118420798119395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbdd02247%3A0xc58d0a705d7cc0e3!2sR%C3%ADo%20Cuarto%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1651874239670!5m2!1sen!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div>
+                    <form action="" class="formulario">
+                        <img src="logo.jpg" class="imgLogo" />
+                  
+                        <h1 class="formulario__titulo">FORMULARIO DE CONTACTO PARA EMERGENCIAS</h1>
+                        <h3 class="formulario__subtitulo">LOS MENSAJES VAN DIRECTO AL WHATSAPP</h3>
+                        <p class="formulario__parrafo">
+                          POR FAVOR SOLO UTILICELO EN CASO DE UNA EMERGENCIA.
+                        </p>
+                        <ul>
+                            <li>
+
+                                
+                                
+                            <label for="cliente" class="formulario__label">¿Cuál es su nombre?</label>
+                            <input
+                            id="cliente"
+                            type="text"
+                            class="formulario__input"
+                            placeholder="nombre y apellido"
+                            />
+                        </li>
+                        <li>
+
+                            
+                            <label for="celu" class="formulario__label"
+                            >Por favor ingrese su numero de celular</label
+                            >
+                            <input
+                            id="celu"
+                            type="number"
+                            class="formulario__input"
+                            placeholder="3585555555"
+                            />
+                        </li>
+                        <li>
+
+                            
+                            <label for="msj">Mensaje</label>
+                            <textarea id="msj" name="mensaje del usuario"></textarea>
+                            
+                        </li>
+                        </ul>
+                  
+
+                  
+                        <div id="respuesta"></div>
+                  
+                        <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+                      </form>
+                      <script src="js/form.js"></script>
+                </div>
  
                 </div>
                 <div class="row">
@@ -287,6 +340,7 @@
     <script src="./assets/js/hover-direction-snake.min.js"></script>
 
     <!-- contact js -->
+    <script src="./assets/js/form.js"></script>
     <script src="./assets/js/contact.js"></script>
     <script src="./assets/js/jquery.form.js"></script>
     <script src="./assets/js/jquery.validate.min.js"></script>
