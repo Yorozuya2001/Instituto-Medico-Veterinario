@@ -50,8 +50,8 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <h3>Instituto Medico Veterinario</h3>
+                                    <a id="anchorName" href="#">
+                                        Instituto Médico<br>Veterinario
                                     </a>
                                 </div>
                             </div>
@@ -63,7 +63,8 @@
                                             <ul id="navigation">
                                                 <li><a href="index.html">Inicio</a></li>
                                                 <li><a href="about.html">Acerca de mí</a></li>
-                                                <li><a href="https://inmedvet.blogspot.com/" target="_blank">Mi Blog</a></li>
+                                                <li><a href="https://inmedvet.blogspot.com/" target="_blank">Mi Blog</a>
+                                                </li>
                                                 <li><a href="contact.html">Contacto</a></li>
                                             </ul>
                                         </nav>
@@ -83,23 +84,9 @@
     </header>
     <main>
         <!--? Hero Start -->
-        <div class="slider-area2">
-            <div class="slider-height2 d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap hero-cap2 pt-70">
-                                <h2>Acerca de mí</h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                                        <li class="breadcrumb-item"><a href="#">Acerca de mí</a></li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div id="particles-js">
+            <div class="center-text">
+                <h1 class="particles-text">Marcelo</h1>
             </div>
         </div>
         <!-- Hero End -->
@@ -231,14 +218,24 @@
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
                                     <p><strong>Contacto</strong></p>
-                                    <ul>
-                                        <li><a
-                                                href="mailto:sroque.vet@gmail.com?Subject=Hola%20Marcelo%20Te%20Hablo%20Desde%20Tu%20Sitio%20Web">sroque.vet@gmail.com</a>
-                                        </li>
-                                        <li><a href="#">General Deheza</a></li>
-                                        <li><a href="#">Cordoba, Argentina</a></li>
-                                        <li class="number"><a href="tel:358 4407569">(358) 4407569</a></li>
-                                    </ul>
+                                    <div>
+                                        <div class="footerDiv">
+                                            <a href="./contact.html"><img class="footerImg" src="./assets/img/email.png"
+                                                    alt="logo-email"></a>
+                                            <a href="./contact.html">sroque.vet@gmail.com</a>
+                                        </div>
+                                        <div class="footerDiv">
+                                            <a href="./contact.html"><img class="footerImg"
+                                                    src="./assets/img/location.png"
+                                                    alt="Imagen de una localicazión"></a>
+                                            <a href="./contact.html">General Deheza, Cordoba.</a>
+                                        </div>
+                                        <div class="footerDiv">
+                                            <a href="./contact.html"><img class="footerImg"
+                                                    src="./assets/img/whatsapp.png" alt="Logo de Whatsapp"></a>
+                                            <a href="./contact.html">+54 9 3584 40-7569</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -254,14 +251,12 @@
                                 <div class="footer-copy-right text-center">
                                     <p>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                        Made by Axl Valiente & Joaquin Cañete with template by Colorlib
-
+                                        Edited by Joaquin Caniete & Axel Valiente.
                                         Copyright &copy;<script>
                                             document.write(new Date().getFullYear());
                                         </script> All rights reserved | This template is made with <i
                                             class="fa fa-heart" aria-hidden="true"></i> by <a
                                             href="https://colorlib.com" target="_blank">Colorlib</a>
-
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     </p>
                                 </div>
@@ -280,6 +275,9 @@
     </div>
 
     <!-- JS here -->
+
+    <script src="./assets/js/particles.js"></script>
+    <script src="./assets/js/app.js"></script>
 
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
