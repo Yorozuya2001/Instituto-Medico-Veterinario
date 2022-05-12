@@ -136,9 +136,9 @@
                     <div class="col-12">
 
                     </div>
-                    <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post"
-                            id="contactForm" novalidate="novalidate">
+                    <div class="formulario formJoa">
+                        <form class="form-contact contact_form" action="https://formsubmit.co/sroque.vet@gmail.com" method="POST"
+                            >
                             <div class="formDiv">
                                 <img src="./assets/img/email.png" alt="Email Logo" />
                                 <h3 id="h3FormTwo" class="contact-title text-center">Contactar por una consulta.</h3>
@@ -146,14 +146,7 @@
                             <h4 class="formulario__subtitulo text-center pb-4">Recibiras una respuesta en tu mail.
                             </h4>
                             <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30"
-                                            rows="9" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Enter Message'"
-                                            placeholder=" ¿En que puedo Ayudarte?"></textarea>
-                                    </div>
-                                </div>
+                            
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input class="form-control valid" name="name" id="name" type="text"
@@ -172,16 +165,31 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text"
+                                        <input class="form-control" name="Asunto" id="subject" type="text"
                                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
                                             placeholder="Asunto">
+                                    </div>
+                                
+                                </div>
+                                <div class="col-12">
+
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="Mensaje" id="message" cols="30"
+                                        rows="9" onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Message'"
+                                        placeholder=" ¿En que puedo Ayudarte?"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Enviar</button>
+                                <input type="submit" class="button button-contactForm boxed-btn" value="Enviar">
+                                <input type="hidden" name="_next" value="https://localhost:5500">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_autoresponse" value="Mensaje entregado a Insituto Veterinario. En breve nos estaremos comunicando con ud. Muchas Gracias">
                             </div>
                         </form>
+                    <!--
+
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
@@ -206,6 +214,7 @@
                             </div>
                         </div>
                     </div>
+                --> 
                 </div>
             </div>
         </section>
