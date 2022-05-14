@@ -13,6 +13,7 @@
 }
 
 .center-text {
+    
     position: absolute;
     top: 35%;
     left: 50%;
@@ -20,9 +21,22 @@
 }
 
 .particles-text {
+    text-align: center;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 6.6875rem;
+}
+.particles-text-small {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.6875rem;
+}
+.particles-text-xsmall {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.6875rem;
 }
 
 .gray-bg {
@@ -2606,7 +2620,9 @@ to {
     font-size: 16px;
 }
 .visit-tailor-area .tailor-offers {
-    background-image: url(../img/gallery/visit_bg.png);
+
+    margin: 20px;
+    
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
