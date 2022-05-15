@@ -117,11 +117,11 @@
                             <li>
                                 <label for="celu" class="formulario__label">¿Cuál es tu número de telefono
                                     celular?</label>
-                                <input id="celu" type="number" class="formulario__input" placeholder="3585555555" />
+                                <input id="celu" type="number" class="formulario__input" placeholder="+54 5 55 5555 5555" />
                             </li>
                             <li>
                                 <label for="msj">Mensaje</label>
-                                <textarea class="" id="msj" name="mensaje del usuario"></textarea>
+                                <textarea class="" id="msj" name="mensaje del usuario" placeholder=" ¿En que puedo Ayudarte?"></textarea>
                             </li>
                         </ul>
                         <div id="respuesta"></div>
@@ -143,40 +143,41 @@
                                 <img src="./assets/img/email.png" alt="Email Logo" />
                                 <h3 id="h3FormTwo" class="contact-title text-center">Contactar por una consulta.</h3>
                             </div>
-                            <h4 class="formulario__subtitulo text-center pb-4">Recibiras una respuesta en tu mail.
+                            <h4 class="formulario__subtitulo text-center pb-4">Nos comunicaremos telefónicamente para agendar un turno.
                             </h4>
                             <div class="row">
                             
                                 <div class="col-sm-6">
                                     <div class="form-group">
+                                        <label for="name" class="formulario__label">¿Cuál es tu nombre?</label>
                                         <input class="form-control valid" name="name" id="name" type="text"
                                             onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Enter your name'"
-                                            placeholder="Escribe tu Nombre">
+                                            placeholder="Escribe tu Nombre y tu Apellido">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
+                                        <label for="email">Email</label>
                                         <input class="form-control valid" name="email" id="email" type="email"
                                             onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Escribe tu dirección de Email'"
-                                            placeholder="Email">
+                                            placeholder="example@gmail.com">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="Asunto" id="subject" type="text"
-                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
-                                            placeholder="Asunto">
+                                        <label for="subject">¿Cuál es tu número de telefono
+                                            celular?</label>
+                                        <input class="form-control" name="Asunto" id="subject" type="tel"
+                                            onfocus="this.placeholder = ''" 
+                                            placeholder="+54 5 55 5555 5555">
                                     </div>
                                 
                                 </div>
                                 <div class="col-12">
-
                                     <div class="form-group">
+                                        <label for="message">Mensaje</label>
                                         <textarea class="form-control w-100" name="Mensaje" id="message" cols="30"
                                         rows="9" onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Message'"
                                         placeholder=" ¿En que puedo Ayudarte?"></textarea>
                                     </div>
                                 </div>
@@ -187,35 +188,8 @@
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_autoresponse" value="Mensaje entregado a Insituto Veterinario. En breve nos estaremos comunicando con ud. Muchas Gracias">
                             </div>
-                        </form>
-                    <!--
-
-                    </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-home"></i></span>
-                            <div class="media-body">
-                                <h3>DIRECCIÓN EN CASO DE TENER</h3>
-                                <p>DIRECCIÓN</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                            <div class="media-body">
-                                <h3>(358) 4407569</h3>
-                                <p>(PONER HORARIOS DE ATNECIÓN)</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-email"></i></span>
-                            <div class="media-body">
-                                <h3>sroque.vet@gmail.com</h3>
-                                <p>Mandamé un mail y te respondere lo más rapido posible.</p>
-                            </div>
-                        </div>
-                    </div>
-                --> 
                 </div>
+            </div>
             </div>
         </section>
     </main>

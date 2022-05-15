@@ -3084,6 +3084,11 @@ to {
     color: #fff;
     font-size: 15px;
 }
+
+.footer-bottom-area{
+    background-color: black;
+}
+
 .footer-bottom-area .footer-border {
     padding: 13px 0px 0px;
 }
@@ -5607,11 +5612,25 @@ form ul li input {
     font-size: 2rem;
 }
 
+.imgEditIn{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imgEditIn:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
 .imgEdit{
     width: 200px;
     height: 200px;
+    overflow: hidden;
     border-radius: 50%;
-    object-fit: cover;
     border: 2px solid black;
     margin: 5px 30px;
     flex-wrap: wrap;
