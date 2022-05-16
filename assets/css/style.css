@@ -2207,13 +2207,16 @@ to {
     height: 250px;
 }
 }.slider-bg1 {
-    background-image: url(../img/principal.png);
+    background-image: url(../img/analysis-2030261_960_720.webp);
 }
 .slider-bg2 {
-    background-image: url(../img/principal.png);
+    background-image: url(../img/dog-1912874_960_720.jpg);
 }
 .slider-bg3 {
-    background-image: url(../img/principal.png);
+    background-image: url(../img/veterinary-4940425_960_720.jpg);
+}
+.slider-bg4 {
+    background-image: url(../img/anatomiaforense.jpg);
 }
 @media (max-width: 575px) {
     .slider-area .hero__caption {
