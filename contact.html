@@ -9,11 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-        <!--Meta Tags -->
-        <title>Instituto Médico Veterinario</title>
-        <meta name="title" content="Instituto Médico Veterinario | Contactar">
-        <meta name="description" content="Instituto Médico Veterniario - Río Cuarto Córdoba Argentina - Contacta con nosotros.">
-        <meta name="keywords" content="Veterinario, Animales, Perros, Gatos, Instituto Medico, Instituto Medico Veterinario">
+    <!--Meta Tags -->
+    <title>Instituto Médico Veterinario</title>
+    <meta name="title" content="Instituto Médico Veterinario | Contactar">
+    <meta name="description"
+        content="Instituto Médico Veterniario - Río Cuarto Córdoba Argentina - Contacta con nosotros.">
+    <meta name="keywords"
+        content="Veterinario, Animales, Perros, Gatos, Instituto Medico, Instituto Medico Veterinario">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -90,7 +92,7 @@
         <!--? Hero Start -->
         <div id="particles-js">
             <div class="center-text">
-                <h1 class="particles-text">Contacta conmigo</h1>
+                <h1 class="particles-text tituloContact">Contacta conmigo</h1>
             </div>
         </div>
         <!-- Hero End -->
@@ -99,8 +101,8 @@
             <div class="container">
                 <h2 class="text-center contact-title pb-5">Ubicación en Google Maps.</h2>
                 <div class="wrapper">
-                    <iframe
-                        id ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53466.31684538255!2d-64.37240411523977!3d-33.118420798119395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbdd02247%3A0xc58d0a705d7cc0e3!2sR%C3%ADo%20Cuarto%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1651874239670!5m2!1sen!2sar"
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53466.31684538255!2d-64.37240411523977!3d-33.118420798119395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbdd02247%3A0xc58d0a705d7cc0e3!2sR%C3%ADo%20Cuarto%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1651874239670!5m2!1sen!2sar"
                         style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -123,11 +125,13 @@
                             <li>
                                 <label for="celu" class="formulario__label">¿Cuál es tu número de telefono
                                     celular?</label>
-                                <input id="celu" type="number" class="formulario__input" placeholder="+54 5 55 5555 5555" />
+                                <input id="celu" type="number" class="formulario__input"
+                                    placeholder="+54 5 55 5555 5555" />
                             </li>
                             <li>
                                 <label for="msj">Mensaje</label>
-                                <textarea class="" id="msj" name="mensaje del usuario" placeholder=" ¿En que puedo Ayudarte?"></textarea>
+                                <textarea class="" id="msj" name="mensaje del usuario"
+                                    placeholder=" ¿En que puedo Ayudarte?"></textarea>
                             </li>
                         </ul>
                         <div id="respuesta"></div>
@@ -140,59 +144,60 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
+                        <div class="formulario formJoa">
+                            <form class="form-contact contact_form" action="https://formsubmit.co/sroque.vet@gmail.com"
+                                method="POST">
+                                <div class="formDiv">
+                                    <img src="./assets/img/email.png" alt="Email Logo" />
+                                    <h3 id="h3FormTwo" class="contact-title text-center">Contactar por una consulta.
+                                    </h3>
+                                </div>
+                                <h4 class="formulario__subtitulo text-center pb-4">Nos comunicaremos telefónicamente
+                                    para agendar un turno.
+                                </h4>
+                                <div class="row">
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="name" class="formulario__label">¿Cuál es tu nombre?</label>
+                                            <input class="form-control valid" name="name" id="name" type="text"
+                                                onfocus="this.placeholder = ''"
+                                                placeholder="Escribe tu Nombre y tu Apellido">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input class="form-control valid" name="email" id="email" type="email"
+                                                onfocus="this.placeholder = ''" placeholder="example@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="subject">¿Cuál es tu número de telefono
+                                                celular?</label>
+                                            <input class="form-control" name="Asunto" id="subject" type="tel"
+                                                onfocus="this.placeholder = ''" placeholder="+54 5 55 5555 5555">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="message">Mensaje</label>
+                                            <textarea class="form-control w-100" name="Mensaje" id="message" cols="30"
+                                                rows="9" onfocus="this.placeholder = ''"
+                                                placeholder=" ¿En que puedo Ayudarte?"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="submit" class="button button-contactForm boxed-btn" value="Enviar">
+                                    <input type="hidden" name="_next" value="https://localhost:5500">
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_autoresponse"
+                                        value="Mensaje entregado a Insituto Veterinario. En breve nos estaremos comunicando con ud. Muchas Gracias">
+                                </div>
+                        </div>
                     </div>
-                    <div class="formulario formJoa">
-                        <form class="form-contact contact_form" action="https://formsubmit.co/sroque.vet@gmail.com" method="POST"
-                            >
-                            <div class="formDiv">
-                                <img src="./assets/img/email.png" alt="Email Logo" />
-                                <h3 id="h3FormTwo" class="contact-title text-center">Contactar por una consulta.</h3>
-                            </div>
-                            <h4 class="formulario__subtitulo text-center pb-4">Nos comunicaremos telefónicamente para agendar un turno.
-                            </h4>
-                            <div class="row">
-                            
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="name" class="formulario__label">¿Cuál es tu nombre?</label>
-                                        <input class="form-control valid" name="name" id="name" type="text"
-                                            onfocus="this.placeholder = ''"
-                                            placeholder="Escribe tu Nombre y tu Apellido">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input class="form-control valid" name="email" id="email" type="email"
-                                            onfocus="this.placeholder = ''"
-                                            placeholder="example@gmail.com">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="subject">¿Cuál es tu número de telefono
-                                            celular?</label>
-                                        <input class="form-control" name="Asunto" id="subject" type="tel"
-                                            onfocus="this.placeholder = ''" 
-                                            placeholder="+54 5 55 5555 5555">
-                                    </div>
-                                
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="message">Mensaje</label>
-                                        <textarea class="form-control w-100" name="Mensaje" id="message" cols="30"
-                                        rows="9" onfocus="this.placeholder = ''"
-                                        placeholder=" ¿En que puedo Ayudarte?"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <input type="submit" class="button button-contactForm boxed-btn" value="Enviar">
-                                <input type="hidden" name="_next" value="https://localhost:5500">
-                                <input type="hidden" name="_captcha" value="false">
-                                <input type="hidden" name="_autoresponse" value="Mensaje entregado a Insituto Veterinario. En breve nos estaremos comunicando con ud. Muchas Gracias">
-                            </div>
                 </div>
             </div>
             </div>
@@ -217,9 +222,15 @@
                                     </div>
                                     <!-- social -->
                                     <div class="footer-social">
-                                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.facebook.com/institutoveterinario.com.ar"><img
+                                                class="footerImg" src="./assets/img/facebook.png" alt="Faceboook"></a>
+                                        <a href="https://www.instagram.com/polidipsia.vet/"><img class="footerImg"
+                                                src="./assets/img/instagram.png" alt="Instagram"></a>
+                                        <a href="https://twitter.com/home"><img class="footerImg"
+                                                src="./assets/img/twitter.png" alt="Twitter"></a>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4">
@@ -228,12 +239,13 @@
                                     <p><strong>Contacto</strong></p>
                                     <div>
                                         <div class="footerDiv">
-                                            <a href="#contactForm"><img class="footerImg" src="./assets/img/email.png" alt="logo-email"></a>
+                                            <a href="#contactForm"><img class="footerImg" src="./assets/img/email.png"
+                                                    alt="logo-email"></a>
                                             <a href="#contactForm">sroque.vet@gmail.com</a>
                                         </div>
                                         <div class="footerDiv">
                                             <a href="#map"><img class="footerImg" src="./assets/img/location.png"
-                                                alt="Imagen de una localicazión"></a>
+                                                    alt="Imagen de una localicazión"></a>
                                             <a href="#map">General Deheza, Cordoba.</a>
                                         </div>
                                         <div class="footerDiv">
